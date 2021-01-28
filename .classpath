@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/U35035/eclipse-workspace/restAssuredTest/restAssuredmylib/rest-assured-4.3.1-dist/rest-assured-4.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/U35035/eclipse-workspace/restAssuredTest/restAssuredmylib/rest-assured-4.3.1-dist/rest-assured-4.3.1-deps/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/U35035/eclipse-workspace/restAssuredTest/restAssuredmylib/rest-assured-4.3.1-dist/rest-assured-4.3.1-deps/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/U35035/eclipse-workspace/restAssuredTest/restAssuredmylib/rest-assured-4.3.1-dist/rest-assured-4.3.1-deps/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/U35035/eclipse-workspace/restAssuredTest/restAssuredmylib/rest-assured-4.3.1-dist/rest-assured-4.3.1-deps/groovy-3.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/U35035/eclipse-workspace/restAssuredTest/restAssuredmylib/rest-assured-4.3.1-dist/rest-assured-4.3.1-deps/groovy-json-3.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/U35035/eclipse-workspace/restAssuredTest/restAssuredmylib/rest-assured-4.3.1-dist/rest-assured-4.3.1-deps/groovy-xml-3.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/U35035/eclipse-workspace/restAssuredTest/restAssuredmylib/rest-assured-4.3.1-dist/rest-assured-4.3.1-deps/hamcrest-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/U35035/eclipse-workspace/restAssuredTest/restAssuredmylib/rest-assured-4.3.1-dist/rest-assured-4.3.1-deps/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/U35035/eclipse-workspace/restAssuredTest/restAssuredmylib/rest-assured-4.3.1-dist/rest-assured-4.3.1-deps/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/U35035/eclipse-workspace/restAssuredTest/restAssuredmylib/rest-assured-4.3.1-dist/rest-assured-4.3.1-deps/httpmime-4.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/U35035/eclipse-workspace/restAssuredTest/restAssuredmylib/rest-assured-4.3.1-dist/rest-assured-4.3.1-deps/jakarta.activation-api-1.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/U35035/eclipse-workspace/restAssuredTest/restAssuredmylib/rest-assured-4.3.1-dist/rest-assured-4.3.1-deps/jakarta.xml.bind-api-2.3.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/U35035/eclipse-workspace/restAssuredTest/restAssuredmylib/rest-assured-4.3.1-dist/rest-assured-4.3.1-deps/jaxb-impl-2.3.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/U35035/eclipse-workspace/restAssuredTest/restAssuredmylib/rest-assured-4.3.1-dist/rest-assured-4.3.1-deps/tagsoup-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/U35035/eclipse-workspace/restAssuredTest/mylib/jar_files/ant-1.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/U35035/eclipse-workspace/restAssuredTest/mylib/jar_files/ant-launcher-1.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/U35035/eclipse-workspace/restAssuredTest/mylib/jar_files/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/U35035/eclipse-workspace/restAssuredTest/mylib/jar_files/hamcrest-core-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/U35035/eclipse-workspace/restAssuredTest/mylib/jar_files/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="C:/Users/U35035/eclipse-workspace/restAssuredTest/mylib/jar_files/junit-4.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/U35035/eclipse-workspace/restAssuredTest/mylib/jar_files/snakeyaml-1.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/U35035/eclipse-workspace/restAssuredTest/mylib/jar_files/testng-6.9.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/U35035/eclipse-workspace/restAssuredTest/json-simple-mylib/json-simple-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/U35035/eclipse-workspace/restAssuredTest/mylib/poi-bin-4.1.0-20190412/poi-4.1.0/poi-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/U35035/eclipse-workspace/restAssuredTest/mylib/poi-bin-4.1.0-20190412/poi-4.1.0/poi-ooxml-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/U35035/eclipse-workspace/restAssuredTest/mylib/poi-bin-4.1.0-20190412/poi-4.1.0/poi-examples-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/U35035/eclipse-workspace/restAssuredTest/mylib/poi-bin-4.1.0-20190412/poi-4.1.0/poi-excelant-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/U35035/eclipse-workspace/restAssuredTest/mylib/poi-bin-4.1.0-20190412/poi-4.1.0/poi-ooxml-schemas-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/U35035/eclipse-workspace/restAssuredTest/mylib/poi-bin-4.1.0-20190412/poi-4.1.0/poi-scratchpad-4.1.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
