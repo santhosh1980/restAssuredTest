@@ -38,7 +38,7 @@ public class TC3_Get_Data {
 	  
 	  //RestAssured.baseURI = "https://jsonplaceholder.typicode.com/users";
 	//RestAssured.baseURI = "https://httpbin.org/get";
-	
+	  
 	  RestAssured.baseURI = "http://api.openweathermap.org/data/2.5/weather?q=Paris&appid=14f61d11ad282e306f4f1ad66dcc5d6e";
 	  
 	  
@@ -58,7 +58,7 @@ public class TC3_Get_Data {
 	  System.out.println("Content Type is: "+contentType);
 	  Assert.assertEquals("application/json; charset=utf-8", contentType);
 	  
-	  String contentLength = response.header("Content-Length");//capture details of content type
+	  String contentLength = response.header("Content-Length");//capture details of content length
 	  System.out.println("Content Length is: "+contentLength);
 	  Assert.assertEquals("467", contentLength);
 	  

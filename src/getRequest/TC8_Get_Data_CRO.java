@@ -17,7 +17,7 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import junit.framework.Assert;
 
-public class TC7_Get_Data {
+public class TC8_Get_Data_CRO {
 	
 	
 	
@@ -37,15 +37,16 @@ public class TC7_Get_Data {
 	  
 	  //Specify base URI
 	  
-	  RestAssured.baseURI = "https://restapi.demoqa.com/authentication/CheckForAuthentication";
+	  RestAssured.baseURI = "https://restapi.demoqa.com/utilities/weather/city/Hyderabad";
 	  //RestAssured.baseURI = "https://httpbin.org/get";
 	  
 	  //Basic authentication
-	  PreemptiveBasicAuthScheme authscheme = new PreemptiveBasicAuthScheme();
-	  authscheme.setUserName("ToolsQA");
-	  authscheme.setPassword("Testpassword");
+	  //PreemptiveBasicAuthScheme authscheme = new PreemptiveBasicAuthScheme();
+	  //authscheme.setUserName("ToolsQA");
+	  //authscheme.setPassword("Testpassword");
 	  
-	  RestAssured.authentication = authscheme;
+	  
+	  //RestAssured.authentication = authscheme;
 	  
 	  
 	  //Specify Request object
