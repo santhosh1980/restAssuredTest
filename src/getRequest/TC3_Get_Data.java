@@ -37,9 +37,11 @@ public class TC3_Get_Data {
 	  //Specify base URI
 	  
 	  //RestAssured.baseURI = "https://jsonplaceholder.typicode.com/users";
-	//RestAssured.baseURI = "https://httpbin.org/get";
+	RestAssured.baseURI = "https://httpbin.org/get";
 	  
-	  RestAssured.baseURI = "http://api.openweathermap.org/data/2.5/weather?q=Paris&appid=14f61d11ad282e306f4f1ad66dcc5d6e";
+	  //RestAssured.baseURI = "http://api.openweathermap.org/data/2.5/weather?q=Paris&appid=14f61d11ad282e306f4f1ad66dcc5d6e";
+	  
+	 // RestAssured.baseURI = "https://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=2b1fd2d7f77ccf1b7de9b441571b39b8";
 	  
 	  
 	  //Specify Request object
@@ -55,12 +57,19 @@ public class TC3_Get_Data {
 	  
 	  //Validating headers
 	  String contentType = response.header("Content-Type");//capture details of content type
+	  //String contentType = response.getHeader("Content-Type");//same as above method
 	  System.out.println("Content Type is: "+contentType);
-	  Assert.assertEquals("application/json; charset=utf-8", contentType);
+	  Assert.assertEquals("application/json", contentType);
 	  
 	  String contentLength = response.header("Content-Length");//capture details of content length
+	  //String contentlength = response.getHeader("Content-Length");//same as above method
 	  System.out.println("Content Length is: "+contentLength);
-	  Assert.assertEquals("467", contentLength);
+	  Assert.assertEquals("323", contentLength);
+	  
+	  String servertype = response.header("Server");//capture details of server type
+	  //String servertype = response.getHeader("servertype");//same as above method
+	  System.out.println("Server type is: "+servertype);
+	  Assert.assertEquals("gunicorn/19.9.0", servertype);
 	  
   }
 }

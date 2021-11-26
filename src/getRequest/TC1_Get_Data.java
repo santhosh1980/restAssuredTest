@@ -41,16 +41,16 @@ public class TC1_Get_Data {
 	  //RestAssured.baseURI = "https://gorest.co.in/public-api/posts";
 	  //RestAssured.baseURI = "http://dummy.restapiexample.com/api/v1/employees";
 	  //RestAssured.baseURI = "http://dummy.restapiexample.com/api/v1/employee";
-	  RestAssured.baseURI="https://jsonplaceholder.typicode.com/comments";
+	  //RestAssured.baseURI="https://jsonplaceholder.typicode.com/comments";
 	  
 	  
 	  //Specify Request object
 	  RequestSpecification httpRequest = RestAssured.given();
 	  
 	  //Specify Response object
-	  //Response response = httpRequest.request(Method.GET, "?id=1");
-	  //Response response = httpRequest.request(Method.GET,"/12");
-	  Response response=httpRequest.request(Method.GET,"?postId=2");
+	  Response response = httpRequest.request(Method.GET, "?id=1");
+	  //Response response = httpRequest.request(Method.GET,"/7");
+	  //Response response=httpRequest.request(Method.GET,"?postId=2");
 	  
 	  //Print response.
 	  String responseBody = response.getBody().asString();

@@ -53,7 +53,9 @@ public class TC5_Get_Data {
 	  System.out.println("Response is: " + responseBody );
 	  
 	  //Validate response node
-	  Assert.assertEquals(true, responseBody.contains("origin"));
+	  //Assert.assertEquals(true, responseBody.toLowerCase().contains("origin"));
+	  
+	  Assert.assertTrue(responseBody.toLowerCase().contains("origin"));
 	  
 	  
 	  

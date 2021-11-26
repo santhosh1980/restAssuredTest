@@ -58,7 +58,7 @@ public class TC4_Get_Data {
 	  
 	  
 	  for (Header header:allheaders) {
-		  System.out.println(header.getName() + "     " + header.getValue());
+		  System.out.println(header.getName() + "(     )" + header.getValue());
 	  }
 	  
 	  

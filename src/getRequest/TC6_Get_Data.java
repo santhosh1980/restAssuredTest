@@ -35,27 +35,44 @@ public class TC6_Get_Data {
 	  
 	  //Specify base URI
 	  
-	  RestAssured.baseURI = "https://api.openweathermap.org/data/2.5/weather";
-	  //RestAssured.baseURI = "https://httpbin.org/get";
+	  //RestAssured.baseURI = "https://api.openweathermap.org/data/2.5/weather";
+	  RestAssured.baseURI = "https://httpbin.org/get";
+	  
+	 
+	  
+	  
+	  
 	  
 	  //Specify Request object
 	  RequestSpecification httpRequest = RestAssured.given();
 	  
 	  //Specify Response object
-	  Response response = httpRequest.request(Method.GET, "?q=Paris&appid=14f61d11ad282e306f4f1ad66dcc5d6e");
-	  //Response response = httpRequest.request(Method.GET);
+	  //Response response = httpRequest.request(Method.GET, "?q=Paris&appid=14f61d11ad282e306f4f1ad66dcc5d6e");
+	  Response response = httpRequest.request(Method.GET);
+	  
+	  
+	  //Print response
+	  String responseBody = response.getBody().asString();
+	  System.out.println("Response is: " + responseBody );
 	  
 	  
 	  //Validate response node and values
 	  JsonPath jsonpath = response.jsonPath();
 	  
-	  System.out.println("Temeperature is " + jsonpath.get("temp"));
+	  /*System.out.println("Temeperature is " + jsonpath.get("temp"));
 	  System.out.println("Pressure is " + jsonpath.get("pressure"));
 	  System.out.println("Humidity is" + jsonpath.get("humidity"));
 	  
 	  Assert.assertEquals("277.76", jsonpath.get("temp"));
 	  Assert.assertEquals("1037", jsonpath.get("pressure"));
-	  Assert.assertEquals("86", jsonpath.get("humidity"));
+	  Assert.assertEquals("86", jsonpath.get("humidity"));*/
+	  
+	  System.out.println("Origin is: "+jsonpath.get("origin"));
+	  Assert.assertEquals("203.99.40.12", jsonpath.get("origin"));
+	  
+	  System.out.println("URL is: "+jsonpath.get("url"));
+	  Assert.assertEquals("https://httpbin.org/get", jsonpath.get("url"));
+	 
 	  
 	  
 	  
