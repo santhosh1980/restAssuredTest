@@ -50,22 +50,22 @@ public class Get_Data_Driven {
 	  public String [][] getempid(){
 		  
 		  //Read data from excel
-		  /*String datapath = "C:\\Users\\U35035\\eclipse-workspace\\Data\\empdata.xlsx";
-		  
-		  ExcelDataConfig excel = new ExcelDataConfig(datapath);
-		  
-		  int rownum= excel.getrownum(1);
-		  
-		  int colnum=excel.getcolnum(1, 1);
-		  
-		  String id[][]= new String[rownum][colnum];
-		  
-		  for (int i=0;i<=rownum; i++) {
-			  for (int j=0;j<colnum; j++) {
-				  id[i][j]=excel.getData(0, i, j);
-			  }
-		  }*/
-		  //hard code data
+//		  String datapath = "C:\\Users\\U35035\\eclipse-workspace\\Data\\empdata.xlsx";
+//		  
+//		  ExcelDataConfig excel = new ExcelDataConfig(datapath);
+//		  
+//		  int rownum= excel.getrownum(1);
+//		  
+//		  int colnum=excel.getcolnum(1, 1);
+//		  
+//		  String id[][]= new String[rownum][colnum];
+//		  
+//		  for (int i=0;i<=rownum; i++) {
+//			  for (int j=0;j<colnum; j++) {
+//				  id[i][j]=excel.getData(0, i, j);
+//			  }
+//		  }
+//		  //hard code data
 		  String id[][]= {{"23"},{"22"},{"24"}};
 		  return id;
 	  }
