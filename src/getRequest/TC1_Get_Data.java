@@ -39,7 +39,7 @@ public class TC1_Get_Data {
 	  //RestAssured.baseURI = "https://jsonplaceholder.typicode.com/users";
 	  //RestAssured.baseURI = "https://httpbin.org/get";
 	  //RestAssured.baseURI = "https://gorest.co.in/public-api/posts";
-	  //RestAssured.baseURI = "http://dummy.restapiexample.com/api/v1/employees";
+	  RestAssured.baseURI = "http://dummy.restapiexample.com/api/v1/employees";
 	  //RestAssured.baseURI = "http://dummy.restapiexample.com/api/v1/employee";
 	  //RestAssured.baseURI="https://jsonplaceholder.typicode.com/comments";
 	  
